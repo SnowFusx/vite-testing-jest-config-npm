@@ -50,5 +50,11 @@ module.exports = {
 
 ```
 // En caso de necesitar la implementación del FetchAPI
-import 'whatwg-fetch'; // <-- npm add whatwg-fetch
+import 'whatwg-fetch';
+```
+
+6. Opcional, para instalar los propTypes**
+
+```
+npm i prop-types
 ```
