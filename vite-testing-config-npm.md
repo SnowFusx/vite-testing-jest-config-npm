@@ -62,3 +62,10 @@ import 'whatwg-fetch';
 ```
 npm i prop-types
 ```
+
+7. Enlaces de la documentación oficial**
+
+```
+[npm i prop-types](https://jestjs.io/docs/tutorial-react)https://jestjs.io/docs/tutorial-react
+https://testing-library.com/docs/react-testing-library/intro/
+```
