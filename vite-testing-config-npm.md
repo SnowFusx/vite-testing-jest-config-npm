@@ -6,7 +6,7 @@
 
 ```
 npm install --save-dev jest
-npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/preset-react
+npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/preset-react react-test-renderer
 npm install --save-dev @testing-library/react @types/jest jest-environment-jsdom
 ```
 
@@ -40,10 +40,14 @@ module.exports = {
 **jest.config.cjs**
 
 ```
-module.exports = {
-    testEnvironment: 'jest-environment-jsdom',
-    setupFiles: ['./jest.setup.js']
-}
+/** @type {import('jest').Config} */
+const config = {
+	verbose: true,
+	setupFiles: ['./jest.setup.js'],
+	testEnvironment: 'jest-environment-jsdom',
+};
+
+module.exports = config;
 ```
 
 **jest.setup.js**
