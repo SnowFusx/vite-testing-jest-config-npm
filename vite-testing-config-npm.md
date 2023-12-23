@@ -5,14 +5,15 @@
 1. Instalaciones:
 
 ```
-npm add --dev jest babel-jest @babel/preset-env @babel/preset-react
-npm add --dev @testing-library/react @types/jest jest-environment-jsdom
+npm install --save-dev jest
+npm install --save-dev babel-jest @babel/core @babel/preset-env @babel/preset-react
+npm install --save-dev @testing-library/react @types/jest jest-environment-jsdom
 ```
 
 2. Opcional: Si usamos Fetch API en el proyecto:
 
 ```
-npm add --dev whatwg-fetch
+npm i --save-dev whatwg-fetch
 ```
 
 3. Actualizar los scripts del **package.json**
