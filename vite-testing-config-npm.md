@@ -65,6 +65,6 @@ npm i prop-types
 
 7. Enlaces de la documentación oficial**
 
-https://jestjs.io/docs/tutorial-react)https://jestjs.io/docs/tutorial-react
+https://jestjs.io/docs/tutorial-react)https://jestjs.io/docs/tutorial-react <br />
 
 https://testing-library.com/docs/react-testing-library/intro/
